@@ -1,6 +1,6 @@
 ## Using this starter
 
-You'll need to ensure any file which uses classes from TailwindCSS that you want included in your compiled CSS file are added to the postcss.config.js file under 'content' for PurgeCSS. The current configuration will catch classes used in any .html file within the 'src' folder. 
+Before building for production: You'll need to ensure any file which uses classes from TailwindCSS that you want included in your compiled CSS file are added to the postcss.config.js file under 'content' for PurgeCSS. The current configuration will catch classes used in any .html file within the 'src' folder. PurgeCSS is currently setup to only run when the NODE_ENV is 'production'.
 
 ## Extending TailwindCSS
 
